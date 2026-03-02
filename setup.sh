@@ -6,6 +6,8 @@ echo "--- Lab Sync Started: $(date) ---"
 echo "This machine is managed by GitOps Lab. Last Sync: $(date)" | sudo tee /etc/motd
 
 # 2. Ensure 'htop' and 'tree' are installed
-sudo apt-get update && sudo apt-get install -y htop tree
+#sudo apt-get update && sudo apt-get install -y htop tree
+
+echo "This is cool"
 
 echo "--- Lab Sync Completed ---"
