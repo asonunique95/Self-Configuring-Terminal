@@ -7,6 +7,6 @@ echo "This machine is managed by GitOps Lab. Last Sync: $(date)" | sudo tee /etc
 
 # 2. Ensure 'htop' and 'tree' are installed
 #sudo apt-get update && sudo apt-get install -y htop tree
-echo "Ensured 'htop' and 'tree' are installed."
+echo "Ensuree' are installed."
 
 echo "--- Lab Sync Completed ---"
